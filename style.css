@@ -41,3 +41,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.profile-photo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto; /* Center the image */
+}
+

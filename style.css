@@ -41,11 +41,19 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.profile-photo {
-    width: 20px; /* Adjust the size as needed */
-    height: 20px; /* Adjust the size as needed */
-    border-radius: 50%;
-    display: block;
-    /*margin: 10px auto; /* Center the image */
+.social-links {
+    margin-top: 15px;
 }
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
 
